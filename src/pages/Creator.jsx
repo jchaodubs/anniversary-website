@@ -558,47 +558,8 @@ export default function Creator() {
                 </button>
               </div>
 
-              <div className="flex items-center gap-3">
-                <Lock className="h-5 w-5 text-rose-400" />
-                <h2 className="font-display text-2xl">Surprise</h2>
-              </div>
-              <div className="space-y-3">
-                <select
-                  className="w-full rounded-2xl border border-white/70 bg-white/70 px-4 py-3"
-                  value={config.surprise.unlock}
-                  onChange={(event) =>
-                    updateNested("surprise", { unlock: event.target.value })
-                  }
-                >
-                  {unlockOptions.map((option) => (
-                    <option key={option.id} value={option.id}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
-                {config.surprise.unlock === "time" && (
-                  <input
-                    type="number"
-                    className="w-full rounded-2xl border border-white/70 bg-white/70 px-4 py-3"
-                    value={config.surprise.delaySeconds}
-                    onChange={(event) =>
-                      updateNested("surprise", { delaySeconds: Number(event.target.value) })
-                    }
-                    placeholder="Delay in seconds"
-                  />
-                )}
-                {config.surprise.unlock === "click" && (
-                  <input
-                    type="number"
-                    className="w-full rounded-2xl border border-white/70 bg-white/70 px-4 py-3"
-                    value={config.surprise.clickCount}
-                    onChange={(event) =>
-                      updateNested("surprise", { clickCount: Number(event.target.value) })
-                    }
-                    placeholder="Clicks to unlock"
-                  />
-                )}
-              </div>
+
+
 
               <div className="flex items-center gap-3">
                 <Palette className="h-5 w-5 text-rose-400" />
