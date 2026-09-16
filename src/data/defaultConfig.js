@@ -76,17 +76,17 @@
     {
       title: "Dream Home",
       icon: "🏡",
-      description: "A cozy place filled with morning coffee and late-night talks."
+      description: "A cozy place filled with redbulls and late-night movies"
     },
     {
       title: "Travel",
       icon: "✈️",
-      description: "Collecting sunsets, city lights, and handwritten postcards."
+      description: "Collecting knick-knacks, city views, and camcorder clips"
     },
     {
       title: "Life Goals",
       icon: "🌱",
-      description: "Growing together, softly and steadily."
+      description: "Growing together, slowly and steadily"
     }
   ],
   theme: {

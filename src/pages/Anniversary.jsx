@@ -275,7 +275,7 @@ export default function Anniversary() {
                   exit={{ opacity: 0, y: 10 }}
                 >
                   {" "}
-                  You are my favorite forever. 💖{" "}
+                  We are a matcha made in heaven💖{" "}
                 </motion.div>
               )}{" "}
             </AnimatePresence>{" "}
