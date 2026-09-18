@@ -1,68 +1,50 @@
 ﻿export const defaultConfig = {
-  creatorName: "Romeo",
-  partnerName: "Juliet",
-  anniversaryDate: "2020-02-14",
+  creatorName: "Jeffrey",
+  partnerName: "Arden",
+  anniversaryDate: "2025-09-28",
   shortLetter:
-    "To my favorite human, thank you for turning ordinary days into glow moments.",
+    "To my Arden, thank you for turning everyday into an exciting surprise",
   longLetter:
-    "My love,\n\nEvery chapter with you feels like a gentle sunrise. I love the way you notice tiny details, the way you make silence feel safe, and the way your laugh spills into my day. This gift is a small memory box for us — a reminder that our story is still unfolding, softly and beautifully.\n\nForever yours.",
+    "My love,\n\nI love you! Stinky.\n\nForever yours.",
   letterMode: "long",
   timeline: [
     {
       title: "First Meet",
-      date: "2019-08-14",
+      date: "2025-05-23",
       emoji: "💫",
-      description: "The day the universe decided we should orbit each other."
+      description: "The day time stopped. It was also a little awkward but that's okay"
     },
     {
-      title: "First Talk",
-      date: "2019-08-16",
-      emoji: "💬",
-      description: "We talked for hours, and time forgot to move."
-    },
-    {
-      title: "First Photo",
-      date: "2019-09-03",
-      emoji: "📸",
-      description: "That snapshot still feels like a warm hug."
-    },
-    {
-      title: "First Trip",
-      date: "2020-01-12",
-      emoji: "🌍",
-      description: "A tiny adventure that felt like a forever memory."
-    },
-    {
-      title: "First Fight",
-      date: "2020-04-10",
-      emoji: "😅",
-      description: "We learned how to choose each other again."
+      title: "First Kiss",
+      date: "2025-06-06",
+      emoji: "👅",
+      description: "mmmm yummy"
     },
     {
       title: "Today",
-      date: "2026-02-09",
+      date: "2026-09-26",
       emoji: "❤️",
-      description: "Still choosing you, every single day."
+      description: "Are you a Pokemon? Because I choose you, today, tomorrow, forever, even if it's pokemon abuse"
     },
     {
-      title: "Forever",
-      date: "2030-02-14",
-      emoji: "♾️",
-      description: "A promise that keeps blooming."
+      title: "Visited my home for the first time",
+      date: "2025-10-10",
+      emoji: "✨",
+      description: "I was lowkey scared you'd crash your car at night"
     }
   ],
   photos: [
     {
-      src: "",
-      caption: "A soft moment"
+      src: "https://res.cloudinary.com/degstwskz/image/upload/v1789600402/x3eyvniv2zg2j1irnqbp.webp",
+      caption: "A peak moment"
     },
     {
-      src: "",
-      caption: "Our favorite memory"
+      src: "https://res.cloudinary.com/degstwskz/image/upload/v1789602527/g7ocvtebjejwxnlz0b0p.webp",
+      caption: "Happy moment"
     },
     {
-      src: "",
-      caption: "Somewhere we laughed"
+      src: "https://res.cloudinary.com/degstwskz/image/upload/v1789600437/nbj49jh13qqofrnijsby.webp",
+      caption: "Witnessing baseball together"
     }
   ],
   promises: [
@@ -90,7 +72,7 @@
     }
   ],
   theme: {
-    palette: "rose",
+    palette: "lavender",
     mode: "light",
     intensity: "cinematic"
   },

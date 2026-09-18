@@ -1,11 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
-import { useLocation } from "react-router-dom";
 import { Heart, Gift } from "lucide-react";
 import { defaultConfig } from "../data/defaultConfig";
-import { loadConfig } from "../lib/storage";
-import { decodeConfig } from "../lib/share";
 import useTypewriter from "../hooks/useTypewriter";
 const shimmerVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -29,16 +26,8 @@ function useTimeTogether(startDate) {
   return { days, hours, minutes };
 }
 export default function Anniversary() {
-  const location = useLocation();
-  const searchParams = useMemo(
-    () => new URLSearchParams(location.search),
-    [location.search],
-  );
-  const sharedConfig = useMemo(
-    () => decodeConfig(searchParams.get("data")),
-    [searchParams],
-  );
-  const config = sharedConfig ?? loadConfig() ?? defaultConfig;
+
+  const config = defaultConfig;
   const [started, setStarted] = useState(false);
   const [letterMode, setLetterMode] = useState(config.letterMode);
   const [secretOpen, setSecretOpen] = useState(false);
